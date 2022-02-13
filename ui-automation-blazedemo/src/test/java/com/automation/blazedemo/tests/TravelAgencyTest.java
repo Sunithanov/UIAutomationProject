@@ -41,6 +41,7 @@ public class TravelAgencyTest extends TestBase {
 		String from = "Boston", destination = "London";
 		TravelAgencyWelcomePage welPage = new TravelAgencyWelcomePage();
 		welPage.clickOnFindFlight(from, destination);
+		LogStatus.logStep("Navigate to From to");
 
 		FlightsFromToPage fromtoPage = new FlightsFromToPage();
 		FlightTicketPurchasePage purchagePage = new FlightTicketPurchasePage();
