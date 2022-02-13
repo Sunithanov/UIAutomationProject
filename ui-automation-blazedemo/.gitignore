@@ -1,0 +1,15 @@
+target/
+target/*
+test-output/
+test-output/*
+logs/
+logs/*
+screenShots/*
+screenShots/
+report/
+report/*
+/.classpath
+/.settings/*
+/.project
+/.factorypath
+.DS_Store

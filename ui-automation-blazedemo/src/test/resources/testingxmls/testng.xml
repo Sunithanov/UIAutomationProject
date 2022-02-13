@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BlazeDemo Suite">
+
+	<listeners>
+		<listener
+			class-name="com.automation.blazedemo.listeners.ListenerClass" />
+		<listener
+			class-name="com.automation.blazedemo.listeners.AnnotationTransformer" />
+	</listeners>
+
+
+	<parameter name="browserName" value="chrome" />
+	<test name="Ui- Blazedemo" thread-count="2" parallel="methods">
+		<classes>
+
+			<class name="com.automation.blazedemo.tests.TravelAgencyTest" />
+
+		</classes>
+	</test>
+</suite> 
