@@ -6,7 +6,7 @@
 	<artifactId>Miro-Selenium-Java</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name></name>
-	<description>https://github.com/NisVek-Automation</description>
+	
 
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
